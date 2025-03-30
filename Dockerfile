@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt update && apt install -y \
     util-linux gawk e2fsprogs ntfs-3g dosfstools fdisk file \
-    joe tree less \
+    joe tree less whiptail\
     && rm -rf /var/lib/apt/lists/*
   
 
